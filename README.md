@@ -1,8 +1,4 @@
-# SSC
-Sumo Server Commander
-
-
-Allgemeine Beschreibung
+Allgemeine Beschreibung zu SSC (Sumo Server Commander), was es werden soll!
 ==================
 
 Dieses Skript ist dazu gedacht, das Leben im Terminal zu vereinfachen und Ihnen Zeit und Mühe zu sparen. Es bietet eine Vielzahl von Funktionen, mit denen Sie Aufgaben wie das Löschen leerer Ordner oder die Installation von kompletten Entertainment-Systemen mit Docker vereinfachen können.
