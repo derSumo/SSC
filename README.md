@@ -9,7 +9,7 @@ Bitte beachten Sie, dass dieses Skript noch in der Entwicklung ist und nicht fü
 Geplante Funktionen
 ===================
 
-Verwenden Sie diese Checkliste, um die geplanten Funktionen des Skripts zu überprüfen:
+Das soll kommen.
 
 *   [ ]  Docker Container Update
 *   [ ]  Server RAM leeren
