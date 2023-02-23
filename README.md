@@ -1,16 +1,26 @@
 # SSC
 Sumo Server Commander
 
+Script-Beschreibung
+===================
 
-Bitte nocht nicht verwenden!!
+Bitte beachten Sie, dass dieses Skript noch in der Entwicklung ist und nicht für den Einsatz in einer Produktionsumgebung empfohlen wird. Die Verwendung des Skripts kann zu Schäden an Ihrem System führen.
 
-Geplannte Funktionen
-> - Docker Container Update
-> - Server Ram leeren
-> - Alle Leere Order löschen im Angebenen Pfad
-> - rclone Tools
-> - Plex Neustart mit Cache von Rclone leeren 
-> - Ein Setup Abfrage um Order angepasst zu erstellen
-> - Auto Update
-> - Komplettes Homekit Installieren Plex/Sonarr/Radarr/rclone/Overseer
-> - Custom Befehle Repo installieren. Mit verbesserte Befehle z.B Komprimieren mit Ladebalken. 
+Geplante Funktionen
+===================
+
+Verwenden Sie diese Checkliste, um die geplanten Funktionen des Skripts zu überprüfen:
+
+*   [ ]  Docker Container Update
+*   [ ]  Server RAM leeren
+*   [ ]  Löschen von leeren Ordnern im angegebenen Pfad
+*   [ ]  Verwendung von rclone Tools
+*   [ ]  Plex Neustart mit Cache von Rclone leeren
+*   [ ]  Einrichtungsabfrage zur Anpassung von Ordnern
+*   [ ]  Automatische Aktualisierung
+*   [ ]  Installation von Homekit (Plex/Sonarr/Radarr/rclone/Overseer)
+*   [ ]  Installation von benutzerdefinierten Befehlen mit verbesserten Funktionen (z.B. Komprimieren mit Ladebalken)
+
+Bitte beachten Sie, dass diese Funktionen noch in der Entwicklung sind und Änderungen vorbehalten sind.
+
+---
