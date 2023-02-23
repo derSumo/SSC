@@ -1,38 +1,5 @@
 #!/bin/bash
-
-#Script Update Funktion
-# Define variables
-REPO_URL="https://github.com/derSumo/SSC.git"
-SCRIPT_NAME="ssh.sh"
-TEMP_DIR=$(mktemp -d)
-CURRENT_DIR=$(pwd)
-
-# Clone the latest version of the repo into a temporary directory
-git clone $REPO_URL $TEMP_DIR
-
-# Check if the script has been updated
-cd $TEMP_DIR
-REMOTE_HASH=$(git rev-parse HEAD)
-cd $CURRENT_DIR
-LOCAL_HASH=$(git rev-parse HEAD)
-
-if [ "$REMOTE_HASH" != "$LOCAL_HASH" ]; then
-  # The script has been updated, so replace the current version with the latest one
-  echo "Updating script..."
-  cp $TEMP_DIR/$SCRIPT_NAME $CURRENT_DIR/$SCRIPT_NAME
-  chmod +x $CURRENT_DIR/$SCRIPT_NAME
-  echo "Script updated successfully."
-fi
-
-# Clean up the temporary directory
-rm -rf $TEMP_DIR
-
-# Run the script
-./$SCRIPT_NAME
-
-
-
-
+#Work in Progress
 
 # Funktion zum Updaten des Systems
 function updateSystem {
